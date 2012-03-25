@@ -1,0 +1,9 @@
+contactarDesarrolladores:
+  credentials: consulta
+
+preguntasFrecuentes:
+  credentials: consulta
+
+contactarUsuarios:
+  credentials: admin
+

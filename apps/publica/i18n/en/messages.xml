@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="ES" target-language="EN" datatype="plaintext" original="messages"  product-name="messages">
+    <header/>
+    <body>
+<trans-unit id="">
+	<source>Alto</source>
+	<target>Advanced</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia recursos humanos</source>
+	<target>Human Resources experience</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Piso</source>
+	<target>Floor</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Provincia</source>
+	<target>County/State</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Tipo via</source>
+	<target>Street type</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Puerta</source>
+        <target>Door</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Medio</source>
+	<target>Intermediate</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Tarde</source>
+	<target>Afternoon</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Catequista</source>
+	<target>Catechist</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Laico comprometido</source>
+	<target>Committed Christian</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Disponibilidad horas</source>
+	<target>Availability (hours)</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Estudios</source>
+	<target>Studies</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Direccion</source>
+	<target>Address</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Numero via</source>
+	<target>Number</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Autorizacion boletin</source>
+	<target>Send me the newsletter for WYD Madrid 2011</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Disponibilidad</source>
+	<target>Availability</target>
+</trans-unit>
+<trans-unit id="">
+	<source>clausula1</source>
+	<target>In compliance with Organic Law 15/1999 of December 13th, Protection of data character (LOPD), the Local Organizing Committee LOC) of World Youth Day, declares:</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Fecha nacimiento</source>
+	<target>Date of birth</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia otro</source>
+	<target>Experience in other areas</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Autorizacion diocesis</source>
+	<target>I wish to participate in future communication activities of the Archdiocese of Madrid</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nombre</source>
+	<target>Name</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nacionalidad</source>
+	<target>Nationality</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Masculino</source>
+	<target>Male</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Inscripcion Nuevo Voluntario</source>
+	<target>New Volunteer Registration</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia trato discapacitados</source>
+	<target>Experience with people with disabilities</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Email</source>
+	<target>E-mail</target>
+</trans-unit>
+<trans-unit id="">
+  <source>Email comprobacion</source>
+  <target>Repeat your email</target>
+</trans-unit>
+<trans-unit id="">
+  <source>error_emails_distintos</source>
+  <target>Emails do not match</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia turismo</source>
+	<target>Tourism experience</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Fax</source>
+	<target>Fax</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Codigo postal</source>
+	<target>Postcode</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nivel otro idioma</source>
+	<target>Level in other languages</target>
+</trans-unit>
+<trans-unit id="">
+	<source>clausula3</source>
+	<target>You are also advised of your right to access, correct and/or remove your personal data held by the WYD organisation by going to LOC headquarters, Plaza de San Juan de la Cruz nº 2B , Madrid, or writing to: voluntarios@jmj2011madrid.com</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Telefono fijo</source>
+	<target>Phone number</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nivel frances</source>
+	<target>Level of French</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Básico</source>
+	<target>Basic</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Tipo documento identificativo</source>
+	<target>Identity Document Type</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Sexo</source>
+	<target>Sex</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Aceptacion condiciones</source>
+	<target>I have read and accept the Privacy Policy</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Datos personales</source>
+	<target>Personal Information</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Talla</source>
+	<target>Size</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nivel estudios</source>
+	<target>Level of education</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Bajo</source>
+	<target>Elementary</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Mañana</source>
+	<target>Morning</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Datos direccion</source>
+	<target>Postal address</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Numero documento identificativo</source>
+	<target>Identity Document Number</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia administracion</source>
+	<target>Managerial experience</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia otro campo</source>
+	<target>Experience in other activity fields</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia seguridad</source>
+	<target>Experience in Security</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Fines de semana</source>
+	<target>Weekends</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Carnet conducir</source>
+	<target>Driving license</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Pasaporte</source>
+	<target>Valid passport (Other countries)</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia sanitario</source>
+	<target>Experience in Health</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Ministro de la comunión</source>
+	<target>Eucharistic Minister</target>
+</trans-unit>
+<trans-unit id="">
+	<source>De lunes a viernes</source>
+	<target>Monday to Friday</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia informatica</source>
+	<target>IT experience</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Segundo apellido</source>
+	<target>Second surname</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia voluntario</source>
+	<target>Volunteer experience</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Autorizaciones</source>
+	<target>Authorizations</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Otro idioma</source>
+	<target>Other languages</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Telefono movil</source>
+	<target>Mobile phone number</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nivel aleman</source>
+	<target>Level of German</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Politica de privacidad</source>
+	<target>Privacy Policy</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia</source>
+	<target>Experience</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Pais</source>
+	<target>Country</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia voluntario donde</source>
+	<target>Location of volunteer experience</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia educacion</source>
+	<target>Experience in Education</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Otros estudios</source>
+	<target>Other studies</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Enviar</source>
+	<target>Send</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Primer apellido</source>
+	<target>First surname</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Movimiento id</source>
+	<target>Movement</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Movimiento</source>
+	<target>Church institutions</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Disponibilidad dias</source>
+	<target>Availability (days)</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia traduccion</source>
+	<target>Translation experience</target>
+</trans-unit>
+<trans-unit id="">
+	<source>NIF</source>
+	<target>NIF/DNI, Identity Card (EU citizens, including Spaniards)</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Otro documento</source>
+        <target>Other document</target>
+</trans-unit>
+<trans-unit id="">
+	<source>clausula2</source>
+	<target>Personal data will be stored and used to manage teams of volunteers during World Youth Day.</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Especialidad</source>
+	<target>Specialization</target>
+</trans-unit>
+<trans-unit id="">
+	<source>NIE</source>
+	<target>NIE number (Foreign residents in Spain)</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Ciudad</source>
+	<target>City</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Compromiso religioso</source>
+	<target>Religious commitment</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Escalera</source>
+	<target>Stairs</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nivel ingles</source>
+	<target>Level of English</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Toda la semana</source>
+	<target>The whole week</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Parroquia id</source>
+	<target>Parish church (for candidates living in Madrid only)</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Indiferente</source>
+	<target>Indifferent</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Datos contacto</source>
+	<target>Contact details</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Femenino</source>
+	<target>Female</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Otro</source>
+        <target>Others</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Sin estudios</source>
+        <target>Non</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Cursillos de Cristiandad</source>
+        <target>Cursillo Movement</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Comunión y liberación</source>
+        <target>Communion and Liberation</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Schoenstatt</source>
+        <target>idem</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Camino Neocatecumenal</source>
+        <target>Neocatechumenal Way</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Formación profesional, Diplomatura o Ingeniería Técnica</source>
+        <target>Higher Education Diplomas and Certificates</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Opus Dei</source>
+        <target>idem</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Focolares</source>
+        <target>Focolare</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Estudios básicos</source>
+        <target>Primary Education</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Bachillerato</source>
+        <target>Secondary Education</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Renovación Carismática</source>
+        <target>Charismatic Renewal</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Regnum Christi</source>
+        <target>idem</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Milicia de Santa María</source>
+        <target>Militia Sanctae Mariae</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Acción Católica</source>
+        <target>Catholic Action</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Licenciatura o Ingeniería Superior</source>
+        <target>Bachelor´s  degrees</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Lo sentimos, pero el plazo de inscripción como voluntario para la Jornada Munidal de la Juventud 2011 ha finalizado. Esperamos verte en Madrid como peregrino.</source>
+        <target>We are sorry to inform it is no longer possible to register as volunteer for the 2011 World Youth Day. We hope to see you in Madrid as a pilgrim.</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Muchas gracias por tu interés.</source>
+        <target>Thank you very much for your interest.</target>
+</trans-unit>
+
+    </body>
+  </file>
+</xliff>

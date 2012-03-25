@@ -1,0 +1,29 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           turno
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          turno
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Listado turnos
+        display: [nombre, descripcion, lugar, fecha, hora_comienzo, hora_fin]
+        object_actions: { _edit: ~, ficha: ~}
+      filter:
+        display: [nombre,lugar_id,fecha,hora_comienzo,hora_fin]
+      form:
+        display: [nombre,descripcion,lugar_id,fecha,hora_comienzo,hora_fin]
+      edit:
+        title: Editar turno
+        actions: {_list: ~, ficha: ~, _save: ~}
+      new:
+        title: Nuevo turno

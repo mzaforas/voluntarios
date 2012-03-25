@@ -1,0 +1,36 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           equipo
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          equipo
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        numero_miembros: {label: Miembros}
+        numero_tareas: {label: Número de tareas}
+        bolsa: {label: Es bolsa}
+        id: {label: Número}
+        perfiles_string: {label: Perfiles}
+      list:    
+        title: Listado de equipos
+        display: [=id, nombre, notas, bolsa, acreditable, perfiles_string, numero_miembros, pagados, fotos, acreditados]
+        object_actions: { _edit: ~, ficha: ~}
+        batch_actions: { }
+        max_per_page: 15
+        sort: [nombre, asc]
+      filter: 
+        display: [id, nombre, notas, bolsa, acreditable, perfiles_list]
+      form: ~
+      edit:
+        title: Editar equipo
+        actions: {_list: ~, ficha: ~, _save: ~}
+      new:
+        title: Nuevo equipo

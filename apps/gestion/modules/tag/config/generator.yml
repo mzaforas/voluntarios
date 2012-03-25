@@ -1,0 +1,32 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           tag
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          tag
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        name: { label: "Nombre" }
+        is_triple: { label: "Es múltiple" }
+        triple_namespace: { label: "Espacio de nombres" }
+        triple_key: { label: "Clave" }
+        triple_value: { label: "Valor" }
+      list:
+        title: Listado de cursos de formación
+        display: [=name]
+      filter:  
+        display: [=name]
+      form:    
+        display: [=name]
+      edit:
+        title: Editar curso de formación
+      new:     
+        title: Nuevo curso de formación

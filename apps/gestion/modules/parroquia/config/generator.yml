@@ -1,0 +1,29 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           parroquia
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          parroquia
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Listado parroquias
+        display: [nombre, municipio, arciprestazgo, vicaria, diocesis]
+        max_per_page: 30
+        table_method: retrieveBackendParroquiaList
+        sort: [nombre, asc]
+        object_actions: { }
+        batch_actions: { }
+      filter:  
+        display: [nombre, municipio, arciprestazgo_id, vicaria_id, diocesis_id]
+      form:    ~
+      edit:    ~
+      new:     ~

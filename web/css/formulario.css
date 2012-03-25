@@ -1,0 +1,117 @@
+.formulario{
+    font-family: Arial;
+}
+
+.formulario fieldset {
+    border-color:#DE2E21;
+    border-style:solid;
+    border-width:0px 0 0;
+    display:block;
+    margin:20px 0 0 5px;
+    padding:0 0 0 5px;
+}
+
+.formulario fieldset legend {
+    border-color: #FF0000;
+    border-style:solid;
+    border-width:9px 0 0;
+
+    font-size: 20px;
+    margin-top = 0px;
+/*
+    -moz-background-clip:border;
+    -moz-background-inline-policy:continuous;
+    -moz-background-origin:padding;
+    -moz-border-radius-bottomleft:7px;
+    -moz-border-radius-bottomright:7px;
+    -moz-border-radius-topleft:7px;
+    -moz-border-radius-topright:7px;
+*/
+/*    background:white url(../images/fondo_fieldset.png) no-repeat scroll 0 0;*/
+/*    background: #DE2E21; */
+    color:#FF0000;
+    font-weight:bold;
+    margin:0px 0 0 0;
+    margin-left: 10px;
+    padding:9px;
+    padding-left: 0px;
+    text-align:left;
+    width:380px;
+}
+
+.formulario {
+    -moz-border-radius: 5px;
+    moz-background-clip:border;
+    moz-background-inline-policy:continuous;
+    moz-background-origin:padding;
+    background: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+}
+
+.formulario fieldset .hora_corta{
+  width:65px;
+}
+
+.formulario fieldset input{
+  width:200px;
+}
+
+.formulario fieldset select{
+  width:200px;
+}
+
+.formulario fieldset textarea {
+  width:200px;
+  height:85px;
+}
+
+.formulario fieldset input[disabled] {
+    color: #333;
+}
+
+.formulario fieldset select[disabled] {
+    color: #333;
+}
+
+.formulario fieldset textarea[disabled] {
+    color: #333;
+}
+
+.formulario div label {
+    float: left; 
+    width: 180px;
+}
+
+.formulario div{
+    padding: 5px;
+}
+
+.formulario div.fila {
+    padding: 5px;
+}
+
+.formulario div.fila_error{
+  -moz-border-radius: 5px;
+  -moz-background-clip:border;
+  -moz-background-inline-policy:continuous;
+  -moz-background-origin:padding;
+   background: #EDB2B2;
+   margin: 5px 0px;
+}
+
+.lista_errores {
+    color:#9F2A26;
+    padding: 0;
+    margin: 0;
+}
+.lista_errores li{
+  height: 16px;
+  list-style: none;
+  background: url("../images/exclamacion.png") no-repeat;
+  margin:0;
+  padding:0 0 0 20px;
+}

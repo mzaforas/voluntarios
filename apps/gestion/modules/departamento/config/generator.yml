@@ -1,0 +1,29 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           departamento
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          departamento
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields: 
+        descripcion: {label: Descripción }
+      list:
+        title: Listado de departamentos
+        display: [=nombre,descripcion]
+        object_actions: {_edit: ~}
+        actions: {}
+        batch_actions: {}
+      filter: ~
+      form: ~
+      edit:
+        title: Editar departamento
+      new:     
+        title: Nuevo departamento

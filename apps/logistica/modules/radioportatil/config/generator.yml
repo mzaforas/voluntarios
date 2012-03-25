@@ -1,0 +1,29 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           radioportatil
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          radioportatil
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields: 
+        numero_serie: {label: Número de serie }
+      list:
+        title: Listado radio portátiles
+        display: [numero_serie]
+        object_actions: { _edit: ~, ficha: ~}
+        max_per_page: 50
+      filter: ~
+      form: ~
+      edit:
+        title: Editar radio portátil
+        actions: {_list: ~, ficha: ~, _save: ~}
+      new:     
+        title: Nuevo radio portátil

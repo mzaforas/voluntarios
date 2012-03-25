@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2010-04-30T19:59:58Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="">
+        <source>Inscripcion Nuevo Voluntario</source>
+        <target>Inscripción Nuevo Voluntario</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>NIF</source>
+        <target>NIF (DNI – españoles y ciudadanos de la UE)</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>NIE</source>
+        <target>NIE (extranjeros residentes en España)</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Pasaporte</source>
+        <target>Pasaporte en vigor (resto de países) = Passaporte em vigor (resto dos países)</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Nombre</source>
+        <target>Nombre</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Primer apellido</source>
+        <target>Primer apellido</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Segundo apellido</source>
+        <target>Segundo apellido</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Fecha nacimiento</source>
+        <target>Fecha nacimiento</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Tipo documento identificativo</source>
+        <target>Tipo documento identificativo</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Numero documento identificativo</source>
+        <target>Número documento identificativo</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Sexo</source>
+        <target>Sexo</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Talla</source>
+        <target>Talla</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Nacionalidad</source>
+        <target>Nacionalidad</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Pais</source>
+        <target>País</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Provincia</source>
+        <target>Provincia</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Codigo postal</source>
+        <target>Código postal</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Ciudad</source>
+        <target>Ciudad</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Tipo via</source>
+        <target>Tipo vía</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Direccion</source>
+        <target>Dirección</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Numero via</source>
+        <target>Número vía</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Escalera</source>
+        <target>Escalera</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Piso</source>
+        <target>Piso</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Puerta</source>
+        <target>Puerta</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Telefono fijo</source>
+        <target>Teléfono fijo</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Telefono movil</source>
+        <target>Teléfono móvil</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Fax</source>
+        <target>Fax</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Email comprobacion</source>
+        <target>Repetir email</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>error_emails_distintos</source>
+        <target>Los emails no coinciden</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Nivel estudios</source>
+        <target>Nivel estudios</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Especialidad</source>
+        <target>Especialidad</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Otros estudios</source>
+        <target>Otros estudios</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Nivel ingles</source>
+        <target>Nivel inglés</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Nivel frances</source>
+        <target>Nivel francés</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Nivel aleman</source>
+        <target>Nivel alemán</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Otro idioma</source>
+        <target>Otro idioma</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Nivel otro idioma</source>
+        <target>Nivel otro idioma</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia administracion</source>
+        <target>Experiencia administración</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia turismo</source>
+        <target>Experiencia turismo</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia informatica</source>
+        <target>Experiencia informática</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia seguridad</source>
+        <target>Experiencia seguridad</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia educacion</source>
+        <target>Experiencia educación</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia sanitario</source>
+        <target>Experiencia sanitario</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia traduccion</source>
+        <target>Experiencia traducción</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia recursos humanos</source>
+        <target>Experiencia recursos humanos</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia otro</source>
+        <target>Experiencia otro</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia otro campo</source>
+        <target>Experiencia otro campo</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia voluntario</source>
+        <target>Experiencia voluntario</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia voluntario donde</source>
+        <target>Experiencia voluntario donde</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia trato discapacitados</source>
+        <target>Experiencia trato discapacitados</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Carnet conducir</source>
+        <target>Carnet conducir</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Parroquia id</source>
+        <target>Parroquia (sólo voluntarios de provincia de Madrid)</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Compromiso religioso</source>
+        <target>Compromiso religioso</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Movimiento id</source>
+        <target>Movimiento</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Movimiento</source>
+        <target>Institución eclesial</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Disponibilidad dias</source>
+        <target>Disponibilidad días</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Disponibilidad horas</source>
+        <target>Disponibilidad horas</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Autorizacion boletin</source>
+        <target>Deseo recibir el boletín de noticias de la JMJ Madrid 2011</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Autorizacion diocesis</source>
+        <target>Deseo participar en futuras acciones de comunicación de la Archidiócesis de Madrid</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Aceptacion condiciones</source>
+        <target>He leído y acepto la la política de privacidad</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Enviar</source>
+        <target>Enviar</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>clausula1</source>
+        <target>En cumplimiento de la Ley Orgánica 15/1999, de 13 de diciembre de Protección de Datos de Carácter Personal (LOPD), el Comité Organizador Local (COL) de la Jornada Mundial de la Juventud, como responsable del fichero informa de las siguientes consideraciones:</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>clausula2</source>
+        <target>Los datos de carácter personal que le solicitamos, quedarán incorporados a un fichero cuya finalidad es gestionar los equipos de voluntarios durante la Jornada Mundial de la Juventud.</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>clausula3</source>
+        <target>Queda igualmente informado de la posibilidad de ejercitar los derechos de acceso, rectificación, cancelación y oposición, de sus datos personales en la oficina central del COL ubicado en la Plaza de San Juan de la Cruz nº 2B en Madrid, o através de la siguiente dirección de correo electrónico</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Datos personales</source>
+        <target>Datos personales</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Datos direccion</source>
+        <target>Datos dirección</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Datos contacto</source>
+        <target>Datos contacto</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Estudios</source>
+        <target>Estudios</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Experiencia</source>
+        <target>Experiencia</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Compromiso religioso</source>
+        <target>Compromiso religioso</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Disponibilidad</source>
+        <target>Disponibilidad</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Autorizaciones</source>
+        <target>Autorizaciones</target>
+      </trans-unit>
+      <trans-unit id="">
+        <source>Politica de privacidad</source>
+        <target>Política de privacidad</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,30 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           perfil
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          perfil
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        descripcion: {label: Descripción}
+        numero_equipos: {label: Número equipos}
+      list:    
+        title: Listado de perfiles
+        display: [=nombre, descripcion, numero_equipos]
+        object_actions: { _edit: ~, ficha: ~}
+        batch_actions: { }
+      filter:
+        display: [nombre, descripcion]
+      form:    ~
+      edit:
+        title: Editar perfil
+      new:
+        title: Nuevo perfil

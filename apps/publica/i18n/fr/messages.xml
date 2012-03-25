@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="ES" target-language="FR" datatype="plaintext" original="messages"  product-name="messages">
+    <header/>
+    <body>
+<trans-unit id="">
+        <source>No</source>
+        <target>Non</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Alto</source>
+	<target>Haut</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia recursos humanos</source>
+	<target>Expérience dans les ressources humaines</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Piso</source>
+	<target>Etage</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Provincia</source>
+	<target>Province / Département</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Tipo via</source>
+	<target>Type de voie</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Medio</source>
+	<target>Moyen</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Tarde</source>
+	<target>Après midi</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Catequista</source>
+	<target>Cathéchiste</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Laico comprometido</source>
+	<target>Laïc engagé</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Disponibilidad horas</source>
+	<target>Horaires de disponibilité</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Estudios</source>
+	<target>Etudes</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Direccion</source>
+	<target>Adresse</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Numero via</source>
+	<target>Número</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Autorizacion boletin</source>
+	<target>envoyez-moi la newsletter des JMJ Madrid 2011</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Disponibilidad</source>
+	<target>Disponibilité</target>
+</trans-unit>
+<trans-unit id="">
+	<source>clausula1</source>
+	<target>Conformément aux dispositions de la Loi organique 15/1999, du 13 décembre 1999 sur la Protection de données de Caractère personnel (LOPD), le Comité Organisateur Local (COL) de la Journée Mondiale de la Jeunesse, comme responsable du fichier, informe des dispositions suivantes :</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Fecha nacimiento</source>
+	<target>Date de naissance</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia otro</source>
+	<target>Autre expérience</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Autorizacion diocesis</source>
+	<target>je souhaite participer aux futures activités de communication de l’archidiocièse de Madrid</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nombre</source>
+	<target>Prénom</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nacionalidad</source>
+	<target>Nationalité</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Masculino</source>
+	<target>Masculin</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Inscripcion Nuevo Voluntario</source>
+	<target>Inscription nouveau bénévole</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia trato discapacitados</source>
+	<target>Expérience avec des handicapés</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Email</source>
+	<target>E-mail</target>
+</trans-unit>
+<trans-unit id="">
+  <source>Email comprobacion</source>
+  <target>Confirmer e-mail</target>
+</trans-unit>
+<trans-unit id="">
+  <source>error_emails_distintos</source>
+  <target>Les e-mails ne concordent pas</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia turismo</source>
+	<target>Expérience dans le tourisme</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Fax</source>
+	<target>Fax</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Codigo postal</source>
+	<target>Code postal</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nivel otro idioma</source>
+	<target>Niveau de langue</target>
+</trans-unit>
+<trans-unit id="">
+	<source>clausula3</source>
+	<target>Nous vous informons également que vous pourrez exercer, à tout moment, et à titre gratuit, ses droits d'accès, de rectification, annulation et opposition au traitement de ses données personnelles au bureau central du COL, situé Plaza de San Juan de la Cruz nº2B à Madrid, ou à travers l’adresse de courrier électronique voluntarios@jmj2011madrid.com</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Telefono fijo</source>
+	<target>Téléphone fixe</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nivel frances</source>
+	<target>Niveau de français</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Básico</source>
+	<target>Basique</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Tipo documento identificativo</source>
+	<target>Pièce d’identité</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Sexo</source>
+	<target>Sexe</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Aceptacion condiciones</source>
+	<target>J’ai lu et j’accepte la politique de privacité.</target>
+	
+</trans-unit>
+<trans-unit id="">
+	<source>Datos personales</source>
+	<target>Données personnelles</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Talla</source>
+	<target>Taille</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nivel estudios</source>
+	<target>Niveau d´études</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Bajo</source>
+	<target>Bas</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Mañana</source>
+	<target>Matin</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Datos direccion</source>
+	<target>Adresse</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Numero documento identificativo</source>
+	<target>Numéro de la pièce d’identité</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia administracion</source>
+	<target>Expérience dans l´administration</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia otro campo</source>
+	<target>Expérience dans d´autres domaines</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia seguridad</source>
+	<target>Expérience dans la sécurité</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Fines de semana</source>
+	<target>Week-ends</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Carnet conducir</source>
+	<target>Permis de conduire</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Pasaporte</source>
+	<target>Passeport en vigueur (pour le reste des pays)</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia sanitario</source>
+	<target>Expérience dans la santé</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Ministro de la comunión</source>
+	<target>Ministre de la communion</target>
+</trans-unit>
+<trans-unit id="">
+	<source>De lunes a viernes</source>
+	<target>de lundi à vendredi</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia informatica</source>
+	<target>Expérience dans l’informatique</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Segundo apellido</source>
+	<target>Deuxième nom de famille</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia voluntario</source>
+	<target>Expérience comme bénévole</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Autorizaciones</source>
+	<target>Autorisations</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Otro idioma</source>
+	<target>Autre langue</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Telefono movil</source>
+	<target>Téléphone portable</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nivel aleman</source>
+	<target>Niveau d´allemand</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Politica de privacidad</source>
+	<target>Politique de confidentialité</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia</source>
+	<target>Expérience</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Pais</source>
+	<target>Pays</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia voluntario donde</source>
+	<target>Où</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia educacion</source>
+	<target>Expérience dans l’éducation</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Otros estudios</source>
+	<target>Autres études</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Enviar</source>
+	<target>Envoyer</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Primer apellido</source>
+	<target>Nom de famille</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Movimiento id</source>
+	<target>Mouvement</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Movimiento</source>
+	<target>Institution ecclésiale</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Disponibilidad dias</source>
+	<target>Jours de disponibilité</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Experiencia traduccion</source>
+	<target>Expérience comme traducteur</target>
+</trans-unit>
+<trans-unit id="">
+	<source>NIF</source>
+	<target>Carte d’identité (espagnols et citoyens de l’UE)</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Otro documento</source>
+        <target>Autre document</target>
+</trans-unit>
+<trans-unit id="">
+	<source>clausula2</source>
+	<target>Les données personnelles que nous vous demandons seront incorporées dans un fichier, dont le but est de gérer les équipes de volontaires durant la Journée Mondiale de la Jeunesse.</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Especialidad</source>
+	<target>Spécialité</target>
+</trans-unit>
+<trans-unit id="">
+	<source>NIE</source>
+	<target>NIE (étrangers résidant en Espagne)</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Ciudad</source>
+	<target>Ville</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Compromiso religioso</source>
+	<target>Engagement religieux</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Escalera</source>
+	<target>Ecalier</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Nivel ingles</source>
+	<target>Niveau d´anglais</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Toda la semana</source>
+	<target>toute la semaine</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Parroquia</source>
+	<target>Parroisse (seulement bénévoles de Madrid)</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Indiferente</source>
+	<target>Indifférent</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Datos contacto</source>
+	<target>Contact</target>
+</trans-unit>
+<trans-unit id="">
+	<source>Femenino</source>
+	<target>Féminin</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Lo sentimos, pero el plazo de inscripción como voluntario para la Jornada Munidal de la Juventud 2011 ha finalizado. Esperamos verte en Madrid como peregrino.</source>
+        <target>Nous sommes désolés mais les délais d’inscription pour être volontaire aux JMJ sont désormais finis. Nous espérons te voir à Madrid cet été en tant que pèlerin!.</target>
+</trans-unit>
+<trans-unit id="">
+        <source>Muchas gracias por tu interés.</source>
+        <target>Un grand merci pour ton enthousiasme.</target>
+</trans-unit>
+
+
+    </body>
+  </file>
+</xliff>

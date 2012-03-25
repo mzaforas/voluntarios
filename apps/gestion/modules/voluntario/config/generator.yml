@@ -1,0 +1,45 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           voluntario
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          voluntario
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        reunion_inicial: { label: Reunión inicial }
+        pais: { label: País }
+        equipo: { label: Equipo}
+        entrevista_seleccion: { label: Entrevista selección }
+        numero_documento_identificativo: { label: Núm. doc. identificativo }
+        tipo_documento_identificativo: { label: Tipo doc. identificativo }
+        telefono_movil: { label: Teléfono móvil }
+        telefono_fijo: { label: Teléfono fijo }
+        documento_autorizacion_paterna: { label: Documento acreditación paterna }
+        tiene_foto: { label: Foto, type: Boolean }
+        revisado_policia: { label: Policía }
+      list:
+        title: Listado de voluntarios
+        display: [nombre, primer_apellido, segundo_apellido, ciudad, pais, _apto, revisado_policia, pagado, registrado, _equipo]
+        sort: [created_at, desc]
+        batch_actions: {}
+        object_actions: {ficha: ~}
+        actions: {}
+        table_method: retrieveBackendVoluntarioList
+        max_per_page: 15
+      filter:
+        display: [id,nombre,primer_apellido,segundo_apellido,sexo,tipo_documento_identificativo,numero_documento_identificativo,ciudad,provincia_id,provincia_madrid,pais,pais_españa,email,telefono_movil,telefono_fijo,talla,nacionalidad,fecha_nacimiento,nivel_estudios,especialidad,otros_estudios,nivel_ingles,nivel_frances,nivel_aleman,otro_idioma,nivel_otro_idioma,experiencia_administracion,experiencia_turismo,experiencia_informatica,experiencia_seguridad,experiencia_educacion,experiencia_sanitario,experiencia_traduccion,experiencia_recursos_humanos,experiencia_otro,experiencia_otro_campo,experiencia_voluntario,experiencia_voluntario_donde,experiencia_trato_discapacitados,carnet_conducir,parroquia_id,perteneciente_a_parroquia,diocesis,compromiso_religioso,movimiento_id,perteneciente_a_movimiento,perteneciente_a_gran_movimiento,disponibilidad_dias,disponibilidad_horas,colaborar_acogida,colaborar_viacrucis,colaborar_vigilia,colaborar_despedida,colaborar_ambientacion,colaborar_protocolo,colaborar_ministro_comunion,autorizacion_boletin,autorizacion_diocesis,alojamiento,apto,revisado_policia,jefe_equipo,notas,reunion_inicial,jefe_equipo,formacion,equipo_id,asignado_a_equipo,asignado_a_equipo_acreditable,asignado_a_equipo_orden,pagado,entrevista_seleccion,foto,numero_acreditacion,medio_transporte,fecha_llegada,fecha_salida,datos_transporte,documento_identificacion_personal,documento_acreditacion,documento_compromiso,documento_antecedentes_penales,documento_autorizacion_paterna,nivel_seguridad_1,nivel_seguridad_2,nivel_seguridad_3,nivel_seguridad_4,nivel_seguridad_5,nivel_seguridad_6,nivel_seguridad_7,nivel_seguridad_8,nivel_seguridad_9,nivel_seguridad_10,nivel_seguridad_11,nivel_seguridad_12,acreditado,registrado,tickets_comida,acreditacion_entregada]
+      form: ~
+      edit:
+        title: Editar voluntario
+        actions: {_delete: ~, _list: ~, ficha: ~, _save: ~}
+      new:     
+        title: Nuevo voluntario
+

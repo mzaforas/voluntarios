@@ -1,0 +1,21 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+  sf_guard_plugin_success_signin_url: 'voluntario/index'
+  sf_guard_plugin_success_signout_url: 'voluntario/index'
+  .array:
+    etiquetas_eventos_seguridad:
+      1: 'Llegada Papa a Barajas'
+      2: 'Entrega de llaves. Puerta de Alcalá'
+      3: 'Acto de bienvenida en Cibeles'
+      4: 'Encuentro con religiosas jóvenes en El Escorial'
+      5: 'Encuentro con profesores universitarios en El Escorial'
+      6: 'Via Crucis en Cibeles'
+      7: 'Misa con seminaristas en La Almudena'
+      8: 'Visita a discapacitados en la Casa de San José'
+      9: 'Vigilia en Cuatro Vientos'
+      10: 'Misa de clausura en Cuatro Vientos'
+      11: 'Encuentro con voluntarios en IFEMA'
+      12: 'Despedida en Barajas'

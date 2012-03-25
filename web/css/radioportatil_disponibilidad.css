@@ -1,0 +1,62 @@
+.tarea {
+    background-color: #ef9c1b;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    border-left: 1px solid #646464;
+    border-right: 1px solid #646464;
+    position: absolute;
+
+}
+
+.radioportatil_td {
+    height: 25px;
+    width: 1008px;
+    background-color: white;
+    padding: 0px;
+    border: 1px solid #646464;
+    vertical-align: top;
+    position: absolute;
+}
+
+.hora_th {
+    height: 20px;
+    width: 1008px;
+    padding: 0px;
+    margin: 0px;
+    border-right: 1px dotted #646464;
+}
+
+.hora_div {
+    width: 1008px;
+    float: left;
+    height: 20px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 2px;
+    border-left: 1px dotted #646464;
+}
+
+a {
+    color: #464646;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.calendario {
+}
+
+.calendario td {
+    background-color: white;
+    width: 15px;
+    height: 20px;
+    border: 1px solid #646464;
+    padding-left: 5px;
+}
+

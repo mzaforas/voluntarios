@@ -1,0 +1,30 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           lugar
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          lugar
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        descripcion: { label: Descripción }
+        telefono: { label: Teléfono }
+      list:    
+        title: Listado de lugares
+        display: [=nombre, municipio, arciprestazgo, descripcion]
+        object_actions: { _edit: ~, ficha: ~}
+        table_method: retrieveBackendLugarList
+      filter:  ~
+      form:    ~
+      edit:
+        title: Editar lugar
+        actions: {_list: ~, ficha: ~, _save: ~}
+      new:
+        title: Nuevo lugar

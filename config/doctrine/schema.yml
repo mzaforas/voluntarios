@@ -1,0 +1,372 @@
+detect_relations: true
+
+# Movimiento
+Movimiento:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    grande: { type: boolean }
+
+# Diócesis
+Diocesis:
+  columns:
+    nombre: { type: string(255), notnull: true }
+
+# Vicaria
+Vicaria:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    diocesis_id:
+  
+# Arciprestazgo
+Arciprestazgo:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    diocesis_id:
+    vicaria_id:
+      
+# Parroquia
+Parroquia:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    municipio: { type: string(255) }
+    arciprestazgo_id:
+
+# Provincia
+Provincia:
+  columns:
+    nombre: { type: string(255), notnull: true }
+
+# Voluntario
+Voluntario:
+  actAs: { Timestampable: ~, Taggable: ~, SoftDelete: ~}
+  columns:
+    deleted_at:                      { type: date }
+    # Personales
+    nombre:                          { type: string(255), notnull: true }
+    primer_apellido:                 { type: string(255), notnull: true }
+    segundo_apellido:                { type: string(255) }
+    tipo_documento_identificativo:   { type: enum, values: ['NIF','Pasaporte','NIE','Otro documento'], notnull: true }
+    numero_documento_identificativo: { type: string(255), notnull: true }
+    sexo:                            { type: enum, length: 9, values: ['Masculino','Femenino'], notnull: true }
+    talla:                           { type: enum, values: ['S','M','L','XL','XXL','XXXL'] }
+    nacionalidad:                    { type: string(2) }
+    fecha_nacimiento:                { type: date, notnull: true }
+    # Dirección y contacto
+    pais:           { type: string(2), notnull: true }
+    provincia_id:
+    codigo_postal:  { type: string(255), notnull: true }
+    ciudad:         { type: string(255), notnull: true }
+    tipo_via:       { type: string(20) }
+    direccion:      { type: string(255) }
+    numero_via:     { type: string(10) }
+    escalera:       { type: string(10) }
+    piso:           { type: string(10) }
+    puerta:         { type: string(10) }
+    telefono_fijo:  { type: string(20) }
+    telefono_movil: { type: string(20), notnull: true }
+    fax:            { type: string(20) }
+    email:          { type: string(255), notnull: true }
+    # Estudios
+    nivel_estudios:    { type: enum, values: ['Sin estudios','Estudios básicos','Bachillerato','Formación profesional','Diplomatura o Ingeniería Técnica','Licenciatura o Ingeniería Superior'] }
+    especialidad:      { type: string(255) }
+    otros_estudios:    { type: string(255) }
+    nivel_ingles:      { type: enum, values: ['No','Bajo','Medio','Alto'] }
+    nivel_frances:     { type: enum, values: ['No','Bajo','Medio','Alto'] }
+    nivel_aleman:      { type: enum, values: ['No','Bajo','Medio','Alto'] }
+    otro_idioma:       { type: string(255) }
+    nivel_otro_idioma: { type: enum, values: ['No','Bajo','Medio','Alto'] }
+    # Experiencia
+    experiencia_administracion:       { type: boolean }
+    experiencia_turismo:              { type: boolean }
+    experiencia_informatica:          { type: boolean }
+    experiencia_seguridad:            { type: boolean }
+    experiencia_educacion:            { type: boolean }
+    experiencia_sanitario:            { type: boolean }
+    experiencia_traduccion:           { type: boolean }
+    experiencia_recursos_humanos:     { type: boolean }
+    experiencia_otro:                 { type: boolean }
+    experiencia_otro_campo:           { type: string(255) }
+    experiencia_voluntario:           { type: boolean }
+    experiencia_voluntario_donde:     { type: string(255) }
+    experiencia_trato_discapacitados: { type: boolean }
+    carnet_conducir:                  { type: boolean }
+    # Compromiso religioso
+    parroquia_id:
+    compromiso_religioso: { type: enum, values: ['Básico','Laico comprometido','Catequista','Ministro de la comunión'] }
+    movimiento_id:
+    # Disponibilidad
+    disponibilidad_dias:         { type: enum, values: ['Fines de semana','De lunes a viernes','Toda la semana'] }
+    disponibilidad_horas:        { type: enum, values: ['Mañana','Tarde','Indiferente'] }
+    colaborar_acogida:           { type: boolean }
+    colaborar_viacrucis:         { type: boolean }
+    colaborar_vigilia:           { type: boolean }
+    colaborar_despedida:         { type: boolean }
+    colaborar_ambientacion:      { type: boolean }
+    colaborar_protocolo:         { type: boolean }
+    colaborar_ministro_comunion: { type: boolean }
+    # Otros
+    autorizacion_boletin:   { type: boolean }
+    autorizacion_diocesis:  { type: boolean }
+    aceptacion_condiciones: { type: boolean, notnull: true }
+    # Gestión JMJ
+    alojamiento:           { type: enum, values: ['','Domicilio personal','IFEMA','Polideportivo','Albergue','Otro domicilio'] }
+    apto:                  { type: boolean }
+    revisado_policia:      { type: boolean }
+    jefe_equipo:           { type: boolean }
+    notas:                 { type: string(4000) }    
+    reunion_inicial:       { type: boolean }
+    equipo_id:
+    foto:                  { type: string(255) }
+    pagado:                { type: boolean, notnull: true, default: 0 }
+    entrevista_seleccion:  { type: boolean, notnull: true, default: 0 }
+    abono_transporte:      { type: enum, values: ['Primera y segunda semana','Sólo segunda semana'] }
+    numero_acreditacion:   { type: string(255) }
+    registrado:            { type: boolean, notnull: true, default: 0 }
+    documento_identificacion_personal: { type: string(255) }
+    documento_acreditacion:            { type: string(255) }
+    documento_compromiso:              { type: string(255) }
+    documento_antecedentes_penales:    { type: string(255) }
+    documento_autorizacion_paterna:    { type: string(255) }
+    medio_transporte:      { type: enum, values: ['Ninguno','Avión','Tren','Autobús','Coche'] }
+    fecha_llegada:         { type: timestamp }
+    fecha_salida:          { type: timestamp }
+    datos_transporte:      { type: string(4000) }
+    nivel_seguridad_1:     { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_2:     { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_3:     { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_4:     { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_5:     { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_6:     { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_7:     { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_8:     { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_9:     { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_10:    { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_11:    { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    nivel_seguridad_12:    { type: enum, values: ['Nulo','Gris','Azul','Rojo'], notnull: true, default: 'Nulo' }
+    datos_alojamiento:     { type: string(4000) }
+    acreditado:            { type: boolean, notnull: true, default: 0 }
+    idioma_documentacion:  { type: enum, values: ['Español','Inglés','Francés','Italiano','Portugués','Polaco'] }
+    tickets_comida:        { type: boolean, notnull: true, default: 0 }
+    acreditacion_entregada: { type: boolean, notnull: true, default: 0 }
+  relations:
+    Equipo:
+      foreignAlias: Voluntarios
+      local: equipo_id
+      foreign: id
+      type: one
+      foreignType: many
+    Provincia:
+      foreignAlias: Voluntarios
+      local: provincia_id
+      foreign: id
+      type: one
+      foreignType: many
+
+
+# Idioma
+Idioma:
+  columns:
+    nombre: { type: string(255), notnull: true }
+
+# País
+Pais:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    codigo: { type: string(5), notnull: true }
+
+# Idioma - País
+IdiomaPais:
+  columns:
+    pais_id:
+    idioma_id:
+
+# Equipo
+Equipo:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    notas: { type: string(4000) }
+    bolsa: { type: boolean }
+    acreditable: { type: boolean }
+  relations:
+    Perfiles:
+      class: Perfil
+      foreignAlias: Equipos
+      refClass: PerfilEquipo
+      local: equipo_id
+      foreign: perfil_id
+    Tareas:
+      class: Tarea
+      foreignAlias: Equipos
+      refClass: TareaEquipo
+      local: equipo_id
+      foreign: tarea_id
+    Voluntarios:
+      class: Voluntario
+      foreignAlias: Equipo
+      local: id
+      foreign: equipo_id
+      type: many
+      foreignType: one
+ 
+# Lugar
+Lugar:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    arciprestazgo_id:
+    mapa: { type: string(4000) }
+    municipio: { type: string(255) }
+    direccion: { type: string(4000) }
+    telefono: { type: string(255) }
+    metro_cercano: { type: string(4000) }
+    autobus_cercano: { type: string(4000) }
+    servicios_cercanos: { type: string(4000) }
+    descripcion: { type: string(4000) }
+
+# Evento
+Evento:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    descripcion: { type: string(4000) }
+    lugar_id:
+    comienzo: { type: timestamp, notnull: true }
+    fin: { type: timestamp, notnull: true }
+
+# Tarea
+Tarea:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    fecha:  { type: date, notnull: true }
+    franja_horaria: { type: enum, values: ['Mañana','Tarde','Mañana y Tarde','Noche'], notnull: true }
+    lugar_id:
+    descripcion: { type: string(4000) }
+    evento_id:
+    voluntario_id: # Responsable de la tarea
+    perfil_id:
+    voluntarios_necesarios: { type: integer }
+    estado: { type: enum, values: ['Sin asignar','Incompleta','Asignada'], notnull: true, default: 'Sin asignar' }
+    departamento_id:
+    hora_comienzo: { type: time }
+    hora_fin: { type: time }
+  relations:
+    Voluntario:
+      class: Voluntario
+      foreignAlias: Tareas
+      local: voluntario_id
+      foreign: id
+    Evento:
+      class: Evento
+      foreignAlias: Tareas
+      local: evento_id
+      foreign: id
+
+# Tarea - Equipo
+TareaEquipo:
+  columns:
+    tarea_id:
+    equipo_id:
+  relations:
+    Tareas:
+      class: Tarea
+      foreignAlias: Equipos
+      local: tarea_id
+      foreign: id
+    Equipos:
+      class: Equipo
+      foreignAlias: Tareas
+      local: equipo_id
+      foreign: id
+
+# Perfil
+Perfil:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    descripcion: { type: string(4000) }
+
+# Perfil-Equipo
+PerfilEquipo:
+  columns:
+    perfil_id:
+    equipo_id:
+  relations:
+    Perfiles:
+      class: Perfil
+      foreignAlias: Equipos
+      local: perfil_id
+      foreign: id
+    Equipos:
+      class: Equipo
+      foreignAlias: Perfiles
+      local: equipo_id
+      foreign: id
+
+
+# Departamento
+Departamento:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    descripcion: { type: string(4000) }
+
+# Radio Portatil
+Radioportatil:
+  columns:
+    numero_serie: { type: string(255), notnull: true }
+  relations:
+    Tareas:
+      class: Tarea
+      foreignAlias: Radioportatiles
+      refClass: TareaRadioportatil
+      local: radioportatil_id
+      foreign: tarea_id
+
+# Tarea Radio Portatil 
+TareaRadioportatil:
+  columns:
+    tarea_id:
+    radioportatil_id:
+    voluntario_id:
+  relations:
+    Tarea:
+      class: Tarea
+      foreignAlias: TareaRadioportatiles
+      local: tarea_id
+      foreign: id
+    Radioportatil:
+      class: Radioportatil
+      foreignAlias: RadioportatilTareas
+      local: radioportatil_id
+      foreign: id
+
+# Turno
+Turno:
+  columns:
+    nombre: { type: string(255), notnull: true }
+    descripcion: { type: string(4000) }
+    lugar_id:
+    fecha:  { type: date, notnull: true }
+    hora_comienzo: { type: time }
+    hora_fin: { type: time }
+  relations:
+    Voluntarios:
+      class: Voluntario
+      foreignAlias: Turnos
+      refClass: TurnoVoluntario
+      local: turno_id
+      foreign: voluntario_id
+
+
+# Turno Voluntario
+TurnoVoluntario:
+  columns:
+    turno_id:
+    voluntario_id:
+  relations:
+    Turno:
+      class: Turno
+      foreignAlias: VoluntariosTurno
+      local: turno_id
+      foreign: id
+    Voluntario:
+      class: Voluntario
+      foreignAlias: TurnosVoluntario
+      local: voluntario_id
+      foreign: id

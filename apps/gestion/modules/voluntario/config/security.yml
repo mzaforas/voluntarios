@@ -1,0 +1,79 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+##########
+# Básico #
+##########
+all:
+  credentials: admin
+
+index:
+  credentials: consulta
+
+filter:
+  credentials: consulta
+
+edit:
+  credentials: voluntario_editar
+
+update:
+  credentials: voluntario_editar
+
+#########
+# Ficha #
+#########
+
+listFicha:
+  credentials: consulta
+
+fichaGestion:
+  credentials: [[voluntario_asignar_equipo, voluntario_subir_foto]]
+
+fichaSeguridad:
+  credentials: voluntario_nivel_seguridad
+
+fichaRegistro:
+  credentials: voluntario_registro
+
+fichaTIC:
+  credentials: voluntario_registro
+
+fichaAlojamiento:
+  credentials: voluntario_registro
+
+fichaTransporte:
+  credentials: voluntario_registro
+
+hojaRegistro:
+  credentials: voluntario_registro
+
+hojaTurnos:
+  credentials: voluntario_registro
+
+fichaFormacion:
+  credentials: voluntario_asignar_formacion
+
+deleteTag:
+  credentials: voluntario_asignar_formacion
+
+generarPdf:
+  credentials: consulta
+
+#########
+# Otros #
+#########
+
+enviarEmail:
+  credentials: voluntario_enviar_email
+
+exportarEmails:
+  credentials: voluntario_enviar_email
+
+exportarCsv:
+  credentials: voluntario_exportar_csv
+
+descargarDocumento:
+  credentials: consulta
+
+testCsv:
+  credentials: consulta

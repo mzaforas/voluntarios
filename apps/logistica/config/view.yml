@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    #title:        symfony project
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:    [main.css,menu.css,%SF_JQUERY_WEB_DIR%/css/ui-lightness/jquery-ui-1.7.3.custom.css,../sfDoctrinePlugin/css/default.css]
+
+  javascripts:    [%SF_JQUERY_WEB_DIR%/js/%SF_JQUERY_CORE%, %SF_JQUERY_WEB_DIR%/js/plugins/%SF_JQUERY_UI%,../sfJSLibTinyMCEPlugin/js/tiny_mce.js,menu.js, swfobject.js]
+
+  has_layout:     true
+  layout:         layout

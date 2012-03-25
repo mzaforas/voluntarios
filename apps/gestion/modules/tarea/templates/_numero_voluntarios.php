@@ -1,0 +1,1 @@
+<?php echo $tarea->getNumeroVoluntarios().'/'.$tarea->getVoluntariosNecesarios(); ?>

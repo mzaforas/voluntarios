@@ -1,0 +1,23 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+all:
+  credentials: admin
+
+index:
+  credentials: consulta
+
+filter:
+  credentials: consulta
+
+new:
+  credentials: lugar_gestionar
+
+create:
+  credentials: lugar_gestionar
+
+edit:
+  credentials: lugar_gestionar
+
+update:
+  credentials: lugar_gestionar

@@ -1,0 +1,38 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+
+all:
+  credentials: admin
+
+index:
+  credentials: consulta
+
+filter:
+  credentials: consulta
+
+autocompletar:
+  credentials: consulta
+
+ListFicha:
+  credentials: consulta
+
+enviarEmail:
+  credentials: consulta
+
+generarPdf:
+  credentials: consulta
+
+exportarCsv:
+  credentials: consulta
+
+edit:
+  credentials: equipo_editar
+
+update:
+  credentials: equipo_editar
+
+new:
+  credentials: voluntario_asignar_equipo
+
+create:
+  credentials: voluntario_asignar_equipo
